@@ -15,8 +15,14 @@
 
     "options_page": "options.html",
 
+    "background": {
+        "scripts": ["eventPage.js"],
+        "persistent": false     //if it is false then its a event page
+    },
+
     "permissions": [
         "storage",
-        "notifications"
+        "notifications",
+        "contextMenus"
     ]
 }
